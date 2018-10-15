@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54a7ee0b-f176-4348-9a1f-039eb8ce2beb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/easy/HammingDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/RobotReturntoOrigin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -13,30 +13,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/LeetCodeLib$RobotReturntoOrigin.ic" NAME="RobotReturntoOrigin Coverage Results" MODIFIED="1539613951271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>easy.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UniqueMorseCodeWords.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/easy/UniqueMorseCodeWords.java">
+    <leaf>
+      <file leaf-file-name="RobotReturntoOrigin.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/easy/RobotReturntoOrigin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="386">
+              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HammingDistance.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/easy/HammingDistance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
-              <folding>
-                <element signature="e#92#93#0" expanded="true" />
-                <element signature="e#131#132#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
-                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,6 +53,7 @@
         <option value="$PROJECT_DIR$/src/easy/UniqueMorseCodeWords.java" />
         <option value="$PROJECT_DIR$/src/easy/SortArrayByParity.java" />
         <option value="$PROJECT_DIR$/src/easy/HammingDistance.java" />
+        <option value="$PROJECT_DIR$/src/easy/RobotReturntoOrigin.java" />
       </list>
     </option>
   </component>
@@ -76,9 +68,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,7 +107,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HammingDistance">
+  <component name="RunManager" selected="Application.RobotReturntoOrigin">
     <configuration name="HammingDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy.HammingDistance" />
       <module name="LeetCodeLib" />
@@ -127,8 +119,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="JewelsandStones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.JewelsandStones" />
+    <configuration name="RobotReturntoOrigin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.RobotReturntoOrigin" />
       <module name="LeetCodeLib" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -213,19 +205,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.JewelsandStones" />
       <item itemvalue="Application.ToLowerCase" />
       <item itemvalue="Application.UniqueMorseCodeWords" />
       <item itemvalue="Application.SortArrayByParity" />
       <item itemvalue="Application.HammingDistance" />
+      <item itemvalue="Application.RobotReturntoOrigin" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RobotReturntoOrigin" />
         <item itemvalue="Application.HammingDistance" />
         <item itemvalue="Application.SortArrayByParity" />
         <item itemvalue="Application.UniqueMorseCodeWords" />
         <item itemvalue="Application.ToLowerCase" />
-        <item itemvalue="Application.JewelsandStones" />
       </list>
     </recent_temporary>
   </component>
@@ -254,18 +246,19 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32876712" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3948718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2717949" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32948717" />
+      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.3297568" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30128205" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15307583" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15522175" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37307692" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -276,36 +269,41 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.3948718" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.15307583" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3948718" />
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info id="Learn" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32948717" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="4" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32948717" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Learn" order="3" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/easy/UniqueMorseCodeWords.java">
@@ -314,6 +312,7 @@
           <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#560#568#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -348,25 +347,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/HammingDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/UniqueMorseCodeWords.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#560#568#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/HammingDistance.java">
+    <entry file="file://$PROJECT_DIR$/src/easy/RobotReturntoOrigin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+        <state relative-caret-position="386">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
           <folding>
-            <element signature="e#92#93#0" expanded="true" />
-            <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
           </folding>
         </state>
       </provider>
